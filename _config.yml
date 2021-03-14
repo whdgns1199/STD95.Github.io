@@ -5,13 +5,9 @@ keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前�
 url: "https://whdgns1199.github.io" # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
-# 在服务器上建站时，如果你不需要子域名，请将这一格留空
 # if you're using GitHub Pages, set baseurl to your blog's .
-# 如果你在使用 GitHub Pages, 请将 baseurl 设置为你的网址的子域名
 # for example, if your site is "kaeyleo.github.io", then this url should leave blank.
-# 例如，当你的域名是 "kaeyleo.github.io"  时，这个 url 需要留空
 # but if your created a repo named "myblog", and the site is "kaeyleo.github.io/myblog", change baseurl to '/myblog'
-# 但是，如果你创建了一个叫 "myblog" 的网站，此时网址会变成 "kaeyleo.github.io/myblog" ，这时再将 baseurl 设置为 '/myblog'
 baseurl: ""
 
 # Navigation links
@@ -35,25 +31,25 @@ search: true
 # Night mode
 nightMode: true
 
-# Comments 评论功能
+# Comments 
 comments:
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
-# MathJax 公式支持 by Ray-Eldath
+# MathJax  by Ray-Eldath
 mathjax: true
 
 # Share
 social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
-# theme color 主题皮肤
+# theme color
 theme-color: 'default'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
 
-# SNS settings 配置社交网站
+# SNS settings 
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   weibo: '//weibo.com/lovecolcol'
@@ -61,7 +57,7 @@ sns:
   instagram: '//www.instagram.com/steveliaocn'
   github: '//github.com/kaeyleo'
 
-# Tags 设置标签
+# Tags
 recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
